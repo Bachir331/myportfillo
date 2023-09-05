@@ -89,6 +89,20 @@ align-items: center;
 justify-content: center;
 
 }
+.imgg {
+    background-color: #FFBA08;
+    width: 100%;
+    animation: img 1s;
+}
+
+@keyframes img {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
 
 .imgg img {
     width: 100%;

@@ -5,7 +5,6 @@ export default function ProjectItem(props) {
     <div>
                             <div className='project'>
                         <div className='imgg'>
-                    <img src={props.src} alt="Icon" />
                         </div>
                         <div className='Text-area'>
                         <h1>{props.NameProject}</h1>
