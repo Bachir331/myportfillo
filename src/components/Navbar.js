@@ -11,10 +11,10 @@ function Navbar() {
           <Link to="/"><h1><span  className='spann'>{'<'}</span><span>{'BACHIR'}</span> <span className='spann'>{'/>'}</span></h1></Link>
             <div className='menu-list'>
               <ul>
-                <li className='lii'><NavLink className="link" activeClassName="active-link" exact to="/">Home</NavLink></li>
-                <li className='lii'><NavLink className="link" activeClassName="active-link" to="/Skills">Skills</NavLink></li>
-                <li className='lii'><NavLink className="link" activeClassName="active-link" to="/Project">Project</NavLink></li>
-                <li className='lii'><NavLink className="link" activeClassName="active-link" to="/About">About</NavLink></li>
+                <li><NavLink className="link" activeClassName="active-link"  to="/">Home</NavLink></li>
+                <li><NavLink className="link" activeClassName="active-link" to="/Skills">Skills</NavLink></li>
+                <li><NavLink className="link" activeClassName="active-link" to="/Project">Project</NavLink></li>
+                <li ><NavLink className="link" activeClassName="active-link" to="/About">About</NavLink></li>
               </ul>
             </div>
 

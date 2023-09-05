@@ -1,1 +1,0 @@
-<CodeHighlighter code={codeToHighlight} />
