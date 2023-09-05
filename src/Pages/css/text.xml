@@ -1,0 +1,110 @@
+      <div className='box1'>            
+             <div className='skil'>
+                  <div className='rr'>
+               <h3>Web</h3>
+               <div className='class-web'>
+      
+            <Skillsitem Name="HTML" Level="Advanced" src={imagePaths.html} />
+            <Skillsitem Name="CSS" Level="Advanced" src={imagePaths.css} />
+            <Skillsitem Name="Javascript" Level="Advanced" src={imagePaths.js} />
+            <Skillsitem Name="REACT JS" Level="Advanced" src={imagePaths.react} />
+            <Skillsitem Name="BOOTSTRAP" Level="Advanced" src={imagePaths.Boots} />
+            <Skillsitem Name="SASS" Level="Advanced" src={imagePaths.sass} />
+          </div>
+               </div>
+      
+      
+                           </div>
+                      </div>
+                      <div className='box2'>
+                      <div className='skil'>
+                   <div className='rr'>
+         <h3>Design</h3>
+         <div className='divf'>
+      <Skillsitem Name="Adobe PS" Level="Advanced" src={imagePaths.Ps} />
+      <Skillsitem Name="Adobe Ai" Level="Advanced" src={imagePaths.Ai} />
+      <Skillsitem Name="Adobe AE" Level="Advanced" src={imagePaths.Ae} />
+      <Skillsitem Name="Adobe pr" Level="Advanced" src={imagePaths.Pr} />
+ 
+</div>
+         </div>
+  
+
+            </div>
+
+
+
+                      </div>
+                      <div className='box3'>
+                        <div className='skil'>
+                                    <div className='rr'>
+                                 <h3>UI / UX</h3>
+                                 <div className='divf'>
+
+                              <Skillsitem Name="Adobe XD" Level="Advanced" src={imagePaths.xd} />
+                              <Skillsitem Name="figma" Level="Advanced" src={imagePaths.figma} />
+                        
+                        </div>
+                                 </div>
+                        
+
+                                    </div>
+                      </div>
+                      <div className='box2'>            
+             <div className='skil'>
+                  <div className='rr'>
+               <h3>OFFICE</h3>
+               <div className='divf'>
+      
+            <Skillsitem Name="WORD" Level="Advanced" src={imagePaths.WORD} />
+            <Skillsitem Name="PPT" Level="Advanced" src={imagePaths.PPT} />
+            <Skillsitem Name="Access" Level="Advanced" src={imagePaths.BD} />
+            <Skillsitem Name="Excel" Level="Advanced" src={imagePaths.EX} /> 
+      </div>
+               </div>
+      
+      
+                           </div>
+                      </div>
+                      <div className='box3'>
+                        <div className='skil'>
+                                    <div className='rr'>
+                                 <h3>AUDIO</h3>
+                                 <div className='divf'>
+
+                              <Skillsitem Name="FL STUDIO" Level="Advanced" src={imagePaths.FL} />
+                              <Skillsitem Name="audacity" Level="Advanced" src={imagePaths.Auda} />
+                        
+                        </div>
+                                 </div>
+                        
+
+                                    </div>
+                      </div>
+
+  <div className='box1'>            
+                        <div className='skil'>
+                  <div className='rr'>
+               <h3>TOOLS</h3>
+               <div className='class-web'>
+      
+            <Skillsitem Name="vscode" Level="Advanced" src={imagePaths.VSC} />
+            <Skillsitem Name="GitHub" Level="Advanced" src={imagePaths.Ghub} />
+            <Skillsitem Name="Git" Level="Advanced" src={imagePaths.Git} />
+            <Skillsitem Name="NPM" Level="Advanced" src={imagePaths.NPM} />
+            <Skillsitem Name="UNITY" Level="Advanced" src={imagePaths.Unity} />
+            <Skillsitem Name="OBS" Level="Advanced" src={imagePaths.OBS} />
+      </div>
+               </div>
+      
+      
+                           </div>
+                      </div>
+         
+
+
+
+
+
+
+         ttgrid

@@ -1,0 +1,182 @@
+.backPro-panel {
+    width: 100%;
+    animation: fade 1s ease-in-out;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.Title {
+
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+  
+}
+.Title div {
+    padding: 30px;
+   display: grid;
+   gap: 10px;
+   border-radius: 5px;
+
+}
+
+.Project-View {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.P-panel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 60px;
+
+
+}
+
+.Title p {
+    background: -webkit-linear-gradient(left, #ffe48c, #FFD60A);
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes motion{
+    0% {
+        transform: scale(0.0);
+        transform: translateY(80%);
+    }
+    100%{
+  
+  
+    }
+  }
+
+
+.project {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 15px;
+    border:#00356655  3px solid;
+    background-color: #0035661e;     
+    transition: 0.5s ease-in-out;
+}
+.project:hover {
+    transform: scale(1.1,1);
+}
+.Text-area :nth-child(1) {
+ font-size: 1.2rem;
+font-weight: 500;
+color: white;
+
+
+}
+.Text-area {
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.imgg img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit:cover;
+    object-position:top;
+    -o-object-fit: cover;
+    -o-object-position: top;
+    border:#003566  2px solid;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.Text-SecArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-radius: 10px;
+
+}
+.Text-SecArea h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFBA08;
+}
+.svg-icon svg {
+  
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    fill: white;
+}
+.svg-icon {
+    display: flex;
+    
+}
+
+.More-btn {
+    width: 21em;
+    height: 2.5em;
+    background-color: #FFC300; 
+    color:#000814; 
+    border: 5px solid #FFD60A;
+    border-radius: 5px; 
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
+  .More-btn svg {
+    width: 1em; 
+    height: 1em; 
+    margin-left: 10px; 
+    fill: #000814;
+
+  }
+  .More-btn:hover {
+    box-shadow: 0px 6px 8px rgb(0, 0, 0);
+}
+  
+@media (max-width: 950px) { 
+    .More-btn {
+        width: 21.5rem;
+    }
+    .backPro-panel {
+        margin-bottom: 90px;
+    }
+    .project {
+        width: 350px;
+       
+    }
+    .project .imgg {
+        height: 150px;
+    }
+    .imgg img {
+        width:100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .P-panel {
+        width: 100%;
+
+    }
+}
